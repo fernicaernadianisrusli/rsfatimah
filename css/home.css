@@ -1,0 +1,40 @@
+:root {
+  font-family: "Poppins";
+  --primary: #392472;
+  --font: #979191;
+  --active: #65c18c;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+.imglogo {
+  width: 180px;
+  height: 80px;
+}
+.navbar-nav .nav-item .nav-link.active {
+  color: var(--active);
+}
+.navbar-nav {
+  margin-top: 20px;
+}
+.titlecontent {
+  color: var(--primary);
+}
+.bgconten {
+  background-color: var(--primary);
+}
+.prmososikesehatan {
+  font-size: 36px;
+  color: var(--primary);
+}
+.atikelkesehatan {
+  font-size: 36px;
+  color: var(--primary);
+}
+.footerbg {
+  background-color: var(--primary);
+}
